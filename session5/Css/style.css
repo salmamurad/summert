@@ -1,0 +1,279 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bg-lgray{
+    background-color: rgb(236, 236, 236);
+}
+.bg-white{
+    background-color: white;
+}
+nav{
+    position: sticky;
+    top: 0;
+}
+.container{
+    width: 95%;
+    margin-left: 1%;
+    padding: 2%;
+}
+.flex{
+    display: flex;
+}
+.space{
+    justify-content: space-around;
+}
+.font{
+    font-family: "Montserrat", sans-serif
+}
+.iconandtit {
+    width: 20%;
+}
+.icsytle{
+    margin-right: 5px;
+    font-size: 30px;
+    color: #4CAF4F;
+}
+h1{
+    font-size: 30px;
+}
+ul{
+    width: 50%;
+    list-style: none;
+    font-size: larger;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.buts{
+    width: 15%;
+}
+.but{
+    width: 45%;
+    padding: 5%; 
+    border: none;
+    border-radius: 5px; 
+}
+.wnav{
+   background-color: rgb(236, 236, 236);
+   color:#4CAF4F;
+}
+.gnav{
+background-color: #4CAF4F;
+color: white;
+}
+.rside{
+    width: 60%;
+    padding-top: 10%;
+    padding-bottom: 1%
+}
+.gclor{
+    margin-bottom: 5%;
+    color: rgb(61, 61, 61);
+}
+h2{
+ color: rgb(61, 61, 61);  
+}
+.rside h2{
+    font-size: 43px;
+}
+span{
+    color: #4CAF4F;
+}
+p{
+    color: gray;
+    margin-bottom: 5%;
+}
+.rebut{
+    font-size: 17px;
+    width: 20%;
+    padding:2%;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF4F;
+    color: white;
+}
+.marbut{
+    margin-bottom: 4%;
+}
+.centerblock{
+    display: block;
+    text-align: center;
+}
+.dots{
+    width: 100%;
+    font-size: 70px;
+    color: #a0aaa0;
+}
+.sec2 h2{
+    margin-bottom: 2%;
+    font-size: 35px;
+}
+.ic{
+    font-size: 45px;
+}
+.card{
+    width: 30%;
+    text-align: center;
+}
+.ico{
+    color: #4CAF4F;
+    font-size: 40px;
+    position: absolute;
+    right: 185px;
+}
+.shape{
+    margin-bottom: 20px;
+    justify-content: center;
+    position: relative;
+}
+.shadow{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px 0;
+    background-color: #4caf4f1f;
+}
+.card h3{
+    color: rgb(61, 61, 61);
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.rside h3{
+    font-size: 35px;
+}
+.lside{
+    width: 50%;
+    margin-top: 10%;
+}
+.top ,.down{
+    margin-bottom: 5%;
+}
+.down{
+    margin-left: 1%;
+}
+.cell{
+    width: 40%;
+    justify-content: center;
+}
+.cell h3{
+    font-size: 25px;
+}
+.icc{
+  margin-top: 2%;
+  color: #4CAF4F;
+  font-size: 40px; 
+  margin-right: 10px; 
+}
+.rside h4{
+    font-size: 40px;
+}
+.icstyl{
+    font-size: 40px;
+    color: rgb(48, 48, 63);
+}
+.spi span{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.spi h6{
+    margin-bottom: 4%;
+}
+.cogreen{
+    color: #4CAF4F;
+}
+.spi button{
+    border: none;
+}
+.sec3 h2{
+    font-size: 30px;
+    margin-bottom: 1%;
+}
+.slide{
+    width: 30%;
+    position: relative;
+}
+.slide button{
+    font-size: 15px;
+    border: none;
+    width: 100%;
+    padding:3%;
+}
+
+.abs{
+    padding: 2% ;
+    width: 80%;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 0px 2px 7px 2px gray;
+    top: 200px;
+    left: 35px;
+}
+.slide img{
+    width: 100%;
+}
+.cen{
+    text-align: center;
+}
+.marleft{
+    margin-left: 4%;
+}
+.centerblock h5{
+   font-size: 60px;
+}
+.centerblock button{
+    font-size: 22px;
+}
+.bg-black{
+    background-color: rgba(14, 14, 17, 0.897);
+}
+.wtext{
+    color: white;
+}
+.marbutt{
+    margin-bottom: 15%;
+}
+.letf{
+    width: 30%;
+}
+.letf p{
+    font-size: 15px;
+}
+.footic{
+    font-size: 25px;
+    color: white;
+}
+.lists{
+    width: 60%;
+}
+.lists h6{
+    font-size: 25px;
+}
+.third{
+    position: relative;
+}
+.third h3{
+   font-size: 25px; 
+}
+.font-size{
+    font-size: 13px;
+}
+.lists li{
+    margin-bottom: 20%;
+}
+input{
+    background-color: rgba(83, 83, 83, 0.897);
+    padding: 5%;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+.whiteicon{
+    color: white;
+    position: absolute;
+    top: 70px;
+    right: 25px;
+}
