@@ -1,0 +1,400 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bg-lgray{
+    background-color: gainsboro;
+}
+.container{
+    width: 95%;
+    padding: 2% 0.5%;
+    margin-left: 2%;
+}
+.bg-im{
+    background-image: url("../images/a5fcbde5258262f42e8d47435151dd5e6c7fc8ba.png");
+    background-size: 130%;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    height: 850px;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.397);
+}
+.font{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+.flex{
+    display: flex;
+}
+.space{
+    justify-content: space-around;
+}
+.center{
+    margin: 10% 2%;
+    height: 80%;
+    align-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.center h2{
+    font-size: 45px;
+    margin-bottom: 3%;
+}
+p{
+    font-size: 12px;
+    margin-bottom: 3%;
+}
+h1{
+    font-size: 25px;
+}
+ul{
+    list-style: none;
+}
+.w-60{
+    width: 80%;
+}
+.w-45{
+    width: 45%;
+}
+.list{
+    width: 40%;
+    margin-top: 1%;
+}
+.marleft{
+    margin-left: 5px;
+}
+.iconstyle{
+    font-size: 20px;
+}
+.bg-blue{
+    background-color: #101828;
+}
+.wbackg{
+    width: 10%;
+    color: rgb(10, 10, 29);
+    font-size: 15px;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 1%;
+    margin-left: 20%;
+}
+.bgtrans{
+    width: 15%;
+    background: transparent;
+    border: 1px white solid;
+    padding: 1.5%;
+    border-radius: 25px;
+    font-size: 17px;
+}
+.cofont{
+    color: #101828;
+}
+.border-but{
+    padding: 1% 0;
+    border-bottom: 1px #101828 solid;
+}
+.posrel{
+    position: relative;
+}
+.posabs{
+    position: absolute;
+}
+.mar{
+    margin: 5% 10%;
+    padding: 2% 0 5% 0;
+}
+.topp{
+    width: 100%;
+    margin-bottom: 5%;
+}
+.bordr{
+    border: 1px #101828 solid;
+}
+.cogray{
+    color: gray;
+    right: 35%;
+    margin-top: 0.9%;
+}
+.posrel h3{
+    width: 40%;
+    font-size: 27px;
+}
+input{
+    width: 30%;
+    border-radius: 25px;
+    border: none;
+    padding: 1% 3%;
+    background-color: rgba(211, 211, 211, 0.842);
+}
+.lmarrleft{
+    margin-left: 25%;
+    margin-bottom: 4%;
+}
+.lmarrleft button{
+    border: none;
+    background-color: white;
+    color: #101828;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+.lmarrleft:hover button{
+    background-color:#101828;
+    color: white;
+    padding: 15%;
+    border-radius: 15px;
+}
+.imags{
+    width: 90%;
+    margin:0 5%;
+}
+.imags img{
+    width: 30%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.foot{
+    width: 80%;
+    left: 84%;
+    padding: 2%;
+    color: black;
+    font-size: 20px;
+}
+.sec2{
+    margin-top: 3%;
+}
+.w-90{
+    padding: 3% 0;
+    width: 90%;
+}
+.left-side{
+    width: 60%;
+}
+.right-side{
+    width: 35%;
+}
+.w-100{
+    width: 100%;
+}
+.margintopbutt{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.hei70{
+    height: 70%;
+}
+.hei50{
+    height: 55%;
+}
+.si{
+    font-size: 50px;
+    top: 30%;
+    left: 9%;
+}
+.sizr{
+    font-size: 60px;
+    left: 10%;
+    top: 50%;
+}
+.margipad{
+    margin-left:5%;
+    margin-right: 5%;
+    padding-right: 1%;
+}
+.imgrad{
+    border-radius: 10px;
+}
+.leftside ,.rightsid{
+    width: 50%;
+    padding-top: 3%;
+    padding-right: 1%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+
+}
+.leftside p{
+    font-size: 15px;
+}
+.rightsid{
+    padding-left: 15%;
+}
+.rightsid img{
+    width: 100%;
+    height: 85%;
+}
+.topleft{
+    width: 40%;
+    top: 65%;
+    left: 17%;
+}
+.topleft img{
+    width: 80%;
+    height: 80%;
+}
+.martop{
+    margin-top: 5%;
+}
+.icresize{
+    margin-top: 10%;
+    width: 40%;
+}
+.ph{
+    height: 100%;
+}
+.ph h3{
+    font-size: 30px;
+    margin-bottom: 3%;
+}
+.ph hr{
+    border:1px rgba(211, 211, 211, 0.288) solid;
+    margin-bottom: 4%;
+}
+.ph p{
+    font-size: 15px;
+    margin-bottom: 4%;
+}
+.ph h4{
+    font-size: 20px;
+    margin-bottom: 3%;
+}
+.ph button{
+    background-color: #101828;
+    padding: 3%;
+    border-radius: 15px;
+    border: none;
+}
+.rightsidbg{
+    width: 35%;
+    background-image: url("../images/31705b7bd092ee2c88bc623dab8acc3a5adf8ef0.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.direct{
+    top: 40%;
+    left: 40%;
+    color: rgb(219, 214, 214);
+    width: 90px;
+    font-size: 50px;
+    padding: 5%;
+    border: 4px white solid;
+    border-radius: 50%;
+}
+.w{
+    border-color: white;
+}
+form{
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 4%;
+}
+label{
+    display: block;
+    color: #101828;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.marginright{
+    margin-right: 30%;
+}
+form input{
+    width: 90%;
+    background-color: white;
+    padding: 2%;
+    border-radius: 5px;
+    border: 1px rgb(173, 169, 169) solid;
+    margin-bottom: 10%;
+}
+.labpad{
+    padding: 7%;
+}
+::placeholder{
+    color: gray;
+}
+textarea{
+    width: 90%;
+    height: 120px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px rgb(173, 169, 169) solid;
+    margin-bottom: 10%;
+}
+.fo-10{
+    font-size: 10px;
+}
+form span{
+    color: grey;
+    text-decoration: underline;
+
+}
+form button{
+    width: 90%;
+    background-color: #101828;
+    padding: 3%;
+    border: none;
+    border-radius: 5px;
+}
+.w-40{
+    width: 40%;
+}
+.w-50{
+    width: 50%;
+}
+.martopbut{
+    margin-top: 30%;
+    margin-bottom: 10%;
+}
+.marginri{
+    margin-right: 15%;
+}
+.fore{
+    font-size: 15px;
+}
+.sty{
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+.fo h5{
+    font-size: 28px;
+    margin-bottom: 3%;
+}
+.marinleft{
+    margin-left: 35%;
+}
+.fo input{
+    width: 50%;
+    padding: 2%;
+    border-radius: 5px;
+}
+.fo button{
+    width: 25%;
+    padding: 2%;
+    color: #101828;
+    border: none;
+    border-radius: 5px;
+}
+.padt{
+    padding: 5% 0;
+}
+.marginbut{
+    margin-bottom: 3%;
+}
+.latest{
+    padding-top: 2%;
+}
+.latest p{
+    margin-right: 40%;
+}
+.lasticon{
+    width: 25%;
+    font-size: 20px;
+}
