@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.right{
+    right: 10%;
+}
+.bg-image{
+    background-image: url("../images/6ffa38c75963c1395d4cd22dd87078f89d5c9065.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.233);
+}
+.bot{
+    top: 85%;
+    left: 13%;
+    
+}
+.style{
+    list-style: none;
+}
+.height{
+    height: 550px;
+}
