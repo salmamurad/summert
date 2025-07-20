@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-item:hover .nav-link{
+    color: rgb(92, 92, 211);
+}
+.nav-item:hover .dropdown-menu{
+    display: block;
+    transform: translateX(15px);
+}
+.dropdown-menu{
+    transition: 2s;
+}
+.dropdown-item{
+    color: black;
+    transition: color 0.3s;
+}
+.dropdown-item:hover{
+    color: rgb(92, 92, 211) !important;
+}
