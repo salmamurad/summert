@@ -20,3 +20,42 @@
 .dropdown-item:hover{
     color: rgb(92, 92, 211) !important;
 }
+.filter{
+    filter: brightness(0.2);
+}
+.carousel-item img {
+    height: 500px;
+}
+.carousel-caption{
+    height: 90%;
+    top: 20%;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px !important;
+    height: 10px !important;
+}
+.carousel-indicators [data-bs-target]:hover{
+    width: 15px !important;
+    height: 15px !important;
+    color: white !important;
+}
+@media (min-width: 991px){
+    .carousel-indicators{
+        bottom: 25% !important;
+        left: 80% !important;
+        flex-direction: column;  
+    }
+}
+.short{
+    width: 35%;
+}
+.tall{
+    width: 55%;
+}
+.w-20{
+    width: 20%;
+}
+.w-55{
+    width: 55%;
+}
