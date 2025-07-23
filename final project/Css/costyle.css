@@ -6,12 +6,14 @@
 .nav-item:hover .nav-link{
     color: rgb(92, 92, 211);
 }
-.nav-item:hover .dropdown-menu{
-    display: block;
-    transform: translateX(15px);
-}
 .dropdown-menu{
-    transition: 2s;
+    display: block;
+    visibility: hidden;
+    transition: 0.7s !important;
+}
+.nav-item:hover .dropdown-menu{
+    visibility: visible;
+    transform: translateX(20px) !important;
 }
 .dropdown-item{
     color: black;
@@ -19,4 +21,22 @@
 }
 .dropdown-item:hover{
     color: rgb(92, 92, 211) !important;
+}
+.bg-coimage{
+    background-image: url("../images/slider2.jpg");
+}
+.height-600{
+    height: 500px;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.575);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.paddcen{
+    padding-top: 20%;
+}
+.bg{
+    background-color: black !important;
+    opacity: 0.4 !important;
 }
