@@ -4,8 +4,13 @@
     <meta charset="utf-8">
     <title>final project</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
@@ -124,6 +129,7 @@
     </div>
   </div>
 </nav>
+<div class="position-fixed arrowpos " id="scroll-btn"> <a href="index.html"><i class="fa-solid fa-circle-arrow-up fs-1 text-primary"></i></a></div>
 <section>
     <div class= "container-fluid">
       <div id="carouselExampleCaptions" class="carousel slide">
@@ -144,8 +150,11 @@
         <p class="fs-lg-5 pb-4 d-none d-lg-block animate__animated animate__fadeInRightBig">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, labore quaerat. <br>Debitis,
            provident doloremque! Enim laudantium sint fugit optio modi.</p>
            <div class="d-flex justify-content-evenly mx-auto mb-auto animate__animated animate__fadeInUpBig">
-            <button class="btn btn-primary rounded-5 py-2 px-3 ms-lg-5 btn-lg" >Get Start Now</button>
-            <button class="btn btn-outline-light rounded-5 py-2 px-4 me-lg-5 btn-lg">Contact Us</button>
+            <button class="btn btn-primary rounded-5 ms-lg-5  btn-filter" >Get Start Now
+              </button>
+            <button class="btn btn-outline-light rounded-5 me-lg-5  btn-filter bluew">Contact Us
+              </span>
+            </button>
            </div>
       </div>
     </div>
@@ -156,8 +165,8 @@
         <p class="fs-lg-5 pb-4 d-none d-lg-block animate__animated animate__fadeInRightBig">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, labore quaerat. <br>Debitis,
            provident doloremque! Enim laudantium sint fugit optio modi.</p>
            <div class="d-flex justify-content-evenly mx-auto mb-auto animate__animated animate__fadeInUpBig">
-            <button class="btn btn-primary rounded-5 py-2 px-3 ms-lg-5 btn-lg" >Get Start Now</button>
-            <button class="btn btn-outline-light rounded-5 py-2 px-4 me-lg-5 btn-lg">Contact Us</button>
+            <button class="btn btn-primary rounded-5 ms-lg-5 btn-filter" >Get Start Now</button>
+            <button class="btn btn-outline-light rounded-5  me-lg-5 btn-filter bluew">Contact Us</button>
            </div>
       </div>
     </div>
@@ -168,8 +177,8 @@
         <p class="fs-lg-5 pb-4 d-none d-lg-block animate__animated animate__fadeInRightBig">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, labore quaerat. <br>Debitis,
            provident doloremque! Enim laudantium sint fugit optio modi.</p>
            <div class="d-flex justify-content-evenly mx-auto mb-auto animate__animated animate__fadeInUpBig">
-            <button class="btn btn-primary rounded-5 py-2 px-3 ms-lg-5 btn-lg" >Get Start Now</button>
-            <button class="btn btn-outline-light rounded-5 py-2 px-4 me-lg-5 btn-lg">Contact Us</button>
+            <button class="btn btn-primary rounded-5  ms-lg-5 btn-filter " >Get Start Now</button>
+            <button class="btn btn-outline-light rounded-5 me-lg-5 btn-filter bluew">Contact Us</button>
            </div>
       </div>>
     </div>
@@ -248,7 +257,7 @@
            <p>Dorem nisi a dictum tristique. 
             Nullam urna metus, is unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam remrutrumDorem ipsum dolor sit amet,
              consectetur.</p><br>
-             <button class="btn btn-primary rounded-5" type="submit">Learn More</button>
+             <button class="btn btn-primary rounded-5 btn-filter" type="submit">Learn More</button>
       </div>
     </div>
   </div>
@@ -262,7 +271,7 @@
         <i class="fa-solid fa-desktop fs-1 text-primary"></i>
       </div>
       <div>
-        <h4>8000</h4>
+        <h4 id="counter1">8000</h4>
         <p class="text-secondary">total project</p>
       </div>
       </div>
@@ -273,7 +282,7 @@
         <i class="fa-solid fa-calendar-days fs-1 text-primary"></i>
       </div>
       <div>
-        <h4>20</h4>
+        <h4 id="counter2">20</h4>
         <p class="text-secondary">Years Experience</p>
       </div>
       </div>
@@ -284,7 +293,7 @@
         <i class="fa-solid fa-trophy fs-1 text-primary"></i>
       </div>
       <div>
-        <h4>810</h4>
+        <h4 id="counter3">810</h4>
         <p class="text-secondary">Won Awards</p>
       </div>
       </div>
@@ -295,7 +304,7 @@
         <i class="fa-regular fa-face-smile-beam fs-1 text-primary"></i>
       </div>
       <div>
-        <h4>2000</h4>
+        <h4 id="counter4">2000</h4>
         <p class="text-secondary">Happy Clients</p>
       </div>
       </div>
@@ -435,88 +444,88 @@
     </div>
     </div>
     </div>
-    <ul class="nav justify-content-center my-4">
+    <ul class="nav justify-content-center my-4" id="filterList">
   <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">All  /</a>
+    <a class="nav-link active" data-filter="all" aria-current="page" href="">All  /</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Creative Design /</a>
+    <a class="nav-link" data-filter="creative" href="">Creative Design /</a>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">development  /</a>
+  <li class="nav-item" >
+    <a class="nav-link"  data-filter="development" href="">development  /</a>
   </li>
    <li class="nav-item">
-    <a class="nav-link" href="#">Graphic Design</a>
+    <a class="nav-link" data-filter="graphic" href="">Graphic Design</a>
   </li>
 </ul>
 <div class="row my-3">
- <div class="col-sm-6 col-md-4 rounded position-relative car mb-3">
+ <div class="col-sm-6 col-md-4 rounded position-relative car mb-3 development graphic">
   <img class="w-100 rounded" src="images/port2-360x380.jpg" alt="">
   <div class="d-flex justify-content-evenly align-items-center bg-primary bg-opacity-50 rounded text-white py-2 px-3 w-75 position-absolute cardhov d-none">
     <div class="d-flex justify-content-evenly align-items-center text-white">
     <div >
-      <p>development,Graphic Design</p>
-      <h5>project title</h5>
+      <p><small>development,Graphic Design</small></p>
+      <h5><small>project title 01</small></h5>
     </div>
     <i class="fa-solid fa-plus text-white fs-5"></i>
   </div>
  </div>
  </div>
- <div class="col-sm-6 col-md-4 rounded position-relative car mb-3">
+ <div class="col-sm-6 col-md-4 rounded position-relative car mb-3 development graphic">
   <img class="w-100 rounded" src="images/port2-360x380.jpg" alt="">
   <div class="d-flex justify-content-evenly align-items-center bg-primary bg-opacity-50 rounded text-white py-2 px-3 w-75 position-absolute cardhov d-none">
     <div class="d-flex justify-content-evenly align-items-center text-white">
     <div >
-      <p>development,Graphic Design</p>
-      <h5>project title</h5>
+      <p><small>development,Graphic Design </small></p>
+      <h5><small>project title 02</small></h5>
     </div>
     <i class="fa-solid fa-plus text-white fs-5"></i>
   </div>
  </div>
  </div>
- <div class="col-sm-6 col-md-4 rounded position-relative car mb-3">
+ <div class="col-sm-6 col-md-4 rounded position-relative car mb-3 creative development graphic">
   <img class="w-100 rounded" src="images/computer-472016_1920-360x380.jpg" alt="">
   <div class="d-flex justify-content-evenly align-items-center bg-primary bg-opacity-50 rounded text-white py-2 px-3 w-75 position-absolute cardhov d-none">
     <div class="d-flex justify-content-evenly align-items-center text-white">
     <div >
-      <p>development,Graphic Design</p>
-      <h5>project title</h5>
+      <p><small>Creative Design,development,Graphic Design,Networking</small></p>
+      <h5><small>project title03</small></h5>
     </div>
     <i class="fa-solid fa-plus text-white fs-5"></i>
   </div>
  </div>
  </div>
- <div class="col-sm-6 col-md-4 rounded position-relative car mb-3">
+ <div class="col-sm-6 col-md-4 rounded position-relative car mb-3 creative ">
   <img class="w-100 rounded" src="images/office-1209640_1920-1-360x380.jpg" alt="">
   <div class="d-flex justify-content-evenly align-items-center bg-primary bg-opacity-50 rounded text-white py-2 px-3 w-75 position-absolute cardhov d-none">
     <div class="d-flex justify-content-evenly align-items-center text-white">
     <div >
-      <p>development,Graphic Design</p>
-      <h5>project title</h5>
+      <p><smal> Creative Design,Networking </smal></p>
+      <h5><small> project title04</small></h5>
     </div>
     <i class="fa-solid fa-plus text-white fs-5"></i>
   </div>
  </div>
  </div>
- <div class="col-sm-6 col-md-4 rounded position-relative car mb-3">
+ <div class="col-sm-6 col-md-4 rounded position-relative car mb-3 development">
   <img class="w-100 rounded" src="images/suit-869380_1920-360x380.jpg" alt="">
   <div class="d-flex justify-content-evenly align-items-center bg-primary bg-opacity-50 rounded text-white py-2 px-3 w-75 position-absolute cardhov d-none">
     <div class="d-flex justify-content-evenly align-items-center text-white">
-    <div >
-      <p>development,Graphic Design</p>
-      <h5>project title</h5>
+    <div>
+      <p><small> development,Networking </small></p>
+      <h5><small> project title04 </small></h5>
     </div>
     <i class="fa-solid fa-plus text-white fs-5"></i>
   </div>
  </div>
  </div>
- <div class="col-sm-6 col-md-4 rounded position-relative car mb-3">
+ <div class="col-sm-6 col-md-4 rounded position-relative car mb-3 graphic">
   <img class="w-100 rounded" src="images/port7-360x380.jpg" alt="">
   <div class="d-flex justify-content-evenly align-items-center bg-primary bg-opacity-50 rounded text-white py-2 px-3 w-75 position-absolute cardhov d-none">
     <div class="d-flex justify-content-evenly align-items-center text-white">
     <div >
-      <p>development,Graphic Design</p>
-      <h5>project title</h5>
+      <p> <small> Graphic Design , Networking </small></p>
+      <h5><small> project title06 </small></h5>
     </div>
     <i class="fa-solid fa-plus text-white fs-5"></i>
   </div>
@@ -535,7 +544,7 @@
         <hr class="tall border border-2 border-primary">
       </div>
       <div class="col-4">
-       <h1>Our creative team</h1>
+       <h2>Our creative team</h2>
       </div>
       <div class="col-2 hrl">
         <hr class="short border border-2 border-primary">
@@ -690,16 +699,19 @@
     </div>
     </div>
     </div>
-    <div class="row">
-      <div class="col-6 d-flex justify-content-center mx-auto py-3">
-  <nav class="nav nav-pills flex-column flex-sm-row">
-  <a class="flex-sm-fill text-sm-center nav-link active rounded-5 px-5 py-2 fs-5 navw" aria-current="page" href="#">Per / Month</a>
-  <a class="flex-sm-fill text-sm-center nav-link rounded-5 px-5 py-2 fs-5 navv" href="#">Per / Day</a>
-  </nav>
-</nav>
-    </div>
-  </div>
-  <div class="row my-4">
+   <div class="row">
+    <ul class="nav nav-pills mb-3 center-ul" id="pills-tab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active fr" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Per / Month</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link se" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Per / Year</button>
+  </li>
+  
+</ul>
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+    <div class="row my-4">
     <div class="col-sm-6 col-md-4 border border-1 rounded text-center p-3">
       <h3 class="py-3">Personal</h3>
       <hr class="mx-auto border border-2 border-primary des">
@@ -720,7 +732,7 @@
       </h5>
       <p class="text-secondary">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
       <hr class="w-75 mx-auto my-4">
-      <button type="button" class="btn btn-primary rounded-5 p-3 my-3">GET STARTED NOW</button>
+      <button type="button" class="btn btn-primary rounded-5 btn-filter  my-3">GET STARTED NOW</button>
     </div>
       <div class="col-sm-6 col-md-4 border border-1 rounded text-center p-3 shadow-lg">
       <h3 class="py-3">Business</h3>
@@ -742,7 +754,7 @@
       </h5>
       <p class="text-secondary">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
       <hr class="w-75 mx-auto my-4">
-      <button type="button" class="btn btn-light text-primary border border-1 border-primary rounded-5 p-3 my-3">GET STARTED NOW</button>
+      <button type="button" class="btn btn-light text-primary border border-1 border-primary rounded-5 btn-filter bluew my-3">GET STARTED NOW</button>
     </div>
       <div class="col-sm-6 col-md-4 border border-1 rounded text-center p-3">
       <h3 class="py-3">Ultimate</h3>
@@ -764,9 +776,92 @@
       </h5>
       <p class="text-secondary">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
       <hr class="w-75 mx-auto my-4">
-      <button type="button" class="btn btn-primary rounded-5 p-3 my-3">GET STARTED NOW</button>
+      <button type="button" class="btn btn-primary rounded-5 my-3 btn-filter ">GET STARTED NOW</button>
     </div>
   </div>
+  </div>
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+    <div class="row py-4">
+        <div class="col-sm-6 col-md-4 border border-1 rounded text-center p-3">
+      <h3 class="py-3">Business</h3>
+      <hr class="mx-auto border border-2 border-primary des">
+      <p>From <span class="text-primary">$899</span></p>
+      <hr class="w-75 mx-auto my-4">
+      <h5 class="d-flex justify-content-center">
+       <i class="fa-solid fa-check text-primary fs-4 me-1"></i> 05 PSD Pack
+      </h5>
+      <p class="text-secondary">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+      <hr class="w-75 mx-auto my-4">
+       <h5 class="d-flex justify-content-center">
+       <i class="fa-solid fa-check text-primary fs-4 me-1"></i>    05 Wordpress Pack
+      </h5>
+      <p class="text-secondary">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+      <hr class="w-75 mx-auto my-4">
+      <h5 class="d-flex justify-content-center">
+       <i class="fa-solid fa-check text-primary fs-4 me-1"></i>   1000 Support Tiket
+      </h5>
+      <p class="text-secondary">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+      <hr class="w-75 mx-auto my-4">
+      <button type="button" class="btn btn-primary border border-1 border-primary rounded-5 btn-filter my-3">GET STARTED NOW</button>
+    </div>
+      <div class="col-sm-6 col-md-4 border border-1 rounded text-center p-3">
+      <h3 class="py-3">Ultimate</h3>
+      <hr class="mx-auto border border-2 border-primary des">
+      <p>From <span class="text-primary">$499</span></p>
+      <hr class="w-75 mx-auto my-4">
+      <h5 class="d-flex justify-content-center">
+       <i class="fa-solid fa-check text-primary fs-4 me-1"></i>  20 PSD Pack
+      </h5>
+      <p class="text-secondary">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+      <hr class="w-75 mx-auto my-4">
+       <h5 class="d-flex justify-content-center">
+       <i class="fa-solid fa-check text-primary fs-4 me-1"></i>   20 Wordpress Pack
+      </h5>
+      <p class="text-secondary">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+      <hr class="w-75 mx-auto my-4">
+      <h5 class="d-flex justify-content-center">
+       <i class="fa-solid fa-check text-primary fs-4 me-1"></i>    1500 Support Tiket
+      </h5>
+      <p class="text-secondary">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+      <hr class="w-75 mx-auto my-4">
+      <button type="button" class="btn btn-primary rounded-5 my-3 btn-filter ">GET STARTED NOW</button>
+    </div>
+        <div class="col-sm-6 col-md-4 border border-1 rounded text-center p-3 shadow-lg">
+      <h3 class="py-3">Personal</h3>
+      <hr class="mx-auto border border-2 border-primary des">
+      <p>From <span class="text-primary">$399</span></p>
+      <hr class="w-75 mx-auto my-4">
+      <h5 class="d-flex justify-content-center">
+       <i class="fa-solid fa-check text-primary fs-4 me-1"></i>  03 PSD Pack
+      </h5>
+      <p class="text-secondary">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+      <hr class="w-75 mx-auto my-4">
+       <h5 class="d-flex justify-content-center">
+       <i class="fa-solid fa-check text-primary fs-4 me-1"></i>   03 Wordpress Pack
+      </h5>
+      <p class="text-secondary">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+      <hr class="w-75 mx-auto my-4">
+      <h5 class="d-flex justify-content-center">
+       <i class="fa-solid fa-check text-primary fs-4 me-1"></i>   120 Support Tiket
+      </h5>
+      <p class="text-secondary">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+      <hr class="w-75 mx-auto my-4">
+      <button type="button" class="btn btn-light text-primary border border-1 border-primary  rounded-5 btn-filter bluew my-3">GET STARTED NOW</button>
+    </div>
+    </div>
+  </div>
+
+</div>
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0"><ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+ 
+</div>
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">...</div>
+ 
+</div>
+   </div>
+     
+  
 </section>
 <section class="bg-black">
   <div class="container">
@@ -774,7 +869,7 @@
     <div class="col-sm-12 col-md-12 col-lg-6 py-5">
       <div class="d-flex justify-content-evenly text-white">
         <i class="fa-regular fa-envelope display-3"></i>
-        <p class="h1">Subscribe now for news</p>
+        <p class="fs-1">Subscribe now for news</p>
       </div>
     </div>
     <div class="col-sm-12 col-md-12 col-lg-6 py-5">
@@ -786,6 +881,348 @@
    </div>
   </div>
 </section>
+<section class="bg-white">
+  <div class="container">
+    <div class="row pt-5">
+    <div class="col-12">
+    <div class="row mx-auto text-center d-flex justify-content-center mb-3">
+      <div class="col-2 hrr text-center">
+        <hr class="short border border-2 border-primary ms-auto">
+        <hr class="tall border border-2 border-primary">
+      </div>
+      <div class="col-4">
+       <h1>Testimonial</h1>
+      </div>
+      <div class="col-2 hrl">
+        <hr class="short border border-2 border-primary">
+        <hr class="tall border border-2 border-primary">
+      </div>
+    </div>
+    
+    </div>
+    </div>
+    <div class="row my-5">
+      <div class="owl-carousel">
+  <div class="card mb-3">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="images/testi-avtar-5.jpg" class="img-fluid p-4 rounded-5" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Gargi Jane</h5>
+        <p class="text-primary"><small>developer</small></p>
+        <p class="card-text text-body-secondary">This is a wider card with supporting text below as a natural lead-in to additional content.
+           This content is a little bit longer.
+          natural lead-in to additional content. This content is a little bit longer.</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="images/testi-avtar-4.jpg" class="img-fluid p-4 rounded-5" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Erich Triat</h5>
+        <p><small class="text-primary">developer</small></p>
+        <p class="card-text text-body-secondary">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.natural lead-in to additional content. This content is a little bit longer.</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="images/testi-avtar-3.jpg" class="img-fluid p-4 rounded-5" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Salena Jovel</h5>
+        <p><small class="text-primary">developer</small></p>
+        <p class="card-text text-body-secondary">This is a wider card with supporting text below as a natural lead-in to additional content.
+           This content is a little bit longer.natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="images/testi-avtar-2.jpg " class="img-fluid p-4 rounded-5" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Eline Locked</h5>
+        <p><small class="text-primary">Marketing Manager</small></p>
+        <p class="card-text text-body-secondary">This is a wider card with supporting text below as a natural lead-in to additional content.
+           This content is a little bit longer.natural lead-in to additional content. This content is a little bit longer.</p>
+        
+      </div>
+    </div>
+  </div>
+</div>
+  
+</div>
+    </div>
+  </div>
+</section>
+<section class="bg-body-secondary bg-opacity-50">
+  <div class="container">
+    <div class="row pt-5">
+    <div class="col-12">
+    <div class="row mx-auto text-center d-flex justify-content-center mb-3">
+      <div class="col-2 hrr text-center">
+        <hr class="short border border-2 border-primary ms-auto">
+      </div>
+      <div class="col-4">
+       <h2>Latest Blog</h2>
+      </div>
+      <div class="col-2 hrl">
+        <hr class="short border border-2 border-primary">
+      </div>
+    </div>
+    <div class="row text-center">
+      <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempor,
+         nisl sed bibendum pretium, diam nisi mattis lectus, eu varius lorem mauris posuere dui.
+         Proin consequat.</p>
+    </div>
+    </div>
+    </div>
+    <div class="row my-5 pb-4">
+      <div class="col-sm-6 col-md-4 mx-auto">
+        <div class="cardd" >
+          <div class="photo">
+        <img src="images/gallery2-1-360x260.png" class="card-img-top" alt="...">
+        </div>
+           <div class="card-body row p-0">
+            <div class="d-flex justify-content-evenly ">
+                    <div class="col-2 d-flex flex-column bg-black fs-5 p-3 text-white text-center bluehov">
+                    <i class="fa-brands fa-facebook-f mb-4 ichover"></i>
+                    <i class="fa-brands fa-twitter mb-4 ichover"></i>
+                    <i class="fa-brands fa-linkedin-in mb-4 ichover"></i>
+                    <i class="fa-brands fa-instagram mb-4 ichover"></i>
+                    <i class="fa-brands fa-google-plus-g mb-4 ichover"></i>
+                    <i class="fa-brands fa-tumblr mb-4 ichover"></i>
+                    </div>
+            <div class="col-10 p-3">
+            <h5 class="card-title fs-5 mb-3 hovtblue">Four ways to cheer and plan your self up on Blue</h5>
+              <p class="card-text text-secondary fontsi hoviblue"><i class="fa-solid fa-user position-relative">
+              </i> by dtm_demo | <i class="fa-regular fa-calendar-days "></i> 19 Dec 2018</p>
+              <div class="hrhov py-1">
+              <hr class="w-25 border border-2 border-primary hrtr"> 
+              </div>
+              <p class="text-secondary">Lorem ipsum dolor sit amet, rcquisc adipiscing elit.
+                 Aenean socada commodo ligauala egets dssdolor....</p>
+             <a href="#" class="btn fw-bold ahov">Read More <i class="fa-solid fa-arrow-right text-black trans"></i></a>
+             </div>
+             </div>
+             </div>
+      </div>
+    </div>
+         <div class="col-sm-6 col-md-4 mx-auto">
+        <div class="cardd" >
+          <div class="photo">
+        <img src="images/bg3-360x260.jpg" class="card-img-top" alt="...">
+        </div>
+           <div class="card-body row p-0">
+            <div class="d-flex justify-content-evenly ">
+                    <div class="col-2 d-flex flex-column bg-black fs-5 p-3 text-white text-center bluehov">
+                    <i class="fa-brands fa-facebook-f mb-4 ichover"></i>
+                    <i class="fa-brands fa-twitter mb-4 ichover"></i>
+                    <i class="fa-brands fa-linkedin-in mb-4 ichover"></i>
+                    <i class="fa-brands fa-instagram mb-4 ichover"></i>
+                    <i class="fa-brands fa-google-plus-g mb-4 ichover"></i>
+                    <i class="fa-brands fa-tumblr mb-4 ichover"></i>
+                    </div>
+            <div class="col-10 p-3">
+            <h5 class="card-title fs-5 mb-3 hovtblue">Four ways to cheer and plan your self up on Blue</h5>
+              <p class="card-text text-secondary fontsi hoviblue"><i class="fa-solid fa-user position-relative">
+              </i> by dtm_demo | <i class="fa-regular fa-calendar-days "></i> 19 Dec 2018</p>
+              <div class="hrhov py-1">
+              <hr class="w-25 border border-2 border-primary hrtr"> 
+              </div>
+              <p class="text-secondary">Lorem ipsum dolor sit amet, rcquisc adipiscing elit.
+                 Aenean socada commodo ligauala egets dssdolor....</p>
+             <a href="#" class="btn fw-bold ahov">Read More <i class="fa-solid fa-arrow-right text-black trans"></i></a>
+             </div>
+             </div>
+             </div>
+      </div>
+    </div>
+         <div class="col-sm-6 col-md-4 mx-auto">
+        <div class="cardd" >
+          <div class="photo">
+        <img src="images/bg1-360x260.jpg" class="card-img-top" alt="...">
+        </div>
+           <div class="card-body row p-0">
+            <div class="d-flex justify-content-evenly ">
+                    <div class="col-2 d-flex flex-column bg-black fs-5 p-3 text-white text-center bluehov">
+                    <i class="fa-brands fa-facebook-f mb-4 ichover"></i>
+                    <i class="fa-brands fa-twitter mb-4 ichover"></i>
+                    <i class="fa-brands fa-linkedin-in mb-4 ichover"></i>
+                    <i class="fa-brands fa-instagram mb-4 ichover"></i>
+                    <i class="fa-brands fa-google-plus-g mb-4 ichover"></i>
+                    <i class="fa-brands fa-tumblr mb-4 ichover"></i>
+                    </div>
+            <div class="col-10 p-3">
+            <h5 class="card-title fs-5 mb-3 hovtblue">Four ways to cheer and plan your self up on Blue</h5>
+              <p class="card-text text-secondary fontsi hoviblue"><i class="fa-solid fa-user position-relative">
+              </i> by dtm_demo | <i class="fa-regular fa-calendar-days "></i> 19 Dec 2018</p>
+              <div class="hrhov py-1">
+              <hr class="w-25 border border-2 border-primary hrtr"> 
+              </div>
+              <p class="text-secondary">Lorem ipsum dolor sit amet, rcquisc adipiscing elit.
+                 Aenean socada commodo ligauala egets dssdolor....</p>
+             <a href="#" class="btn fw-bold ahov">Read More <i class="fa-solid fa-arrow-right text-black trans"></i></a>
+             </div>
+             </div>
+             </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="bg-white">
+  <div class="container">
+    <div class="row mt-5">
+      <div class="d-none d-lg-block col-lg-3">
+        <div>
+          <img class="" src="images/partner-slide-man (3).png" alt="">
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-9">
+        
+      <div class="row py-5 ">
+    <div class="col-12">
+    <div class="row text-left d-flex mb-3">
+      <div class="col-5">
+       <h3>Meet Our Clients</h3>
+      </div>
+      <div class="col-2 hrl">
+        <hr class="short border border-2 border-primary">
+        <hr class="tall border border-2 border-primary">
+      </div>
+      </div>
+      </div>
+       
+      
+    </div>
+    <div class="row">
+      <div class="col-sm-6 col-md-6 col-lg-4">
+        <div class="border border-1 border-black rounded mb-4">
+        <img class="w-100" src="images/partner-g1.png" alt="">
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-4">
+        <div class="border border-1 border-black rounded">
+        <img class="w-100" src="images/partner-g5.png" alt="">
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-4">
+        <div class="border border-1 border-black rounded mb-4">
+        <img class="w-100 " src="images/partner-g1.png" alt="">
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-4">
+        <div class="border border-1 border-black rounded">
+        <img class="w-100" src="images/partner-g5.png" alt="">
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-4">
+        <div class="border border-1 border-black rounded mb-4">
+        <img class="w-100" src="images/partner-g1.png" alt="">
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-4">
+        <div class="border border-1 border-black rounded">
+        <img class="w-100" src="images/partner-g5.png" alt="">
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+  </div>
+</section>
+<section class="bg-primary">
+  <div class="container">
+    <div class="banner">
+  <i class="fa-solid fa-phone background-icon"></i>
+  <div class="d-flex justify-content-between">
+  <h4 class="w-50">If You Like This Grate Work ?? For You Site...</h4>
+  <button type="button" class="btn btn-light text-primary border-0 rounded-5 btn-filter bluew">Purchase Now</button>
+  </div>
+  </div>
+  </div>
+</section>
+<footer class="bg-black">
+  <div class="container">
+    <div class="row text-white py-5 mb-5">
+      <div class="col-sm-12 col-md-6 col-lg-4 text-left">
+        <div>
+          <h3>Contact Info</h3>
+          <hr class="w-25 border border-2 border-primary">
+          <p><i class="fa-solid fa-location-dot"></i>  123 Street Market, Life Plaza, New York<br><br>
+          <i class="fa-solid fa-phone"></i>  987654321<br><br>
+        <i class="fa-regular fa-envelope"></i>  team@gmail.com</p>
+        </div>
+      </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 text-left">
+        <div>
+          <h3>Posts</h3>
+          <hr class="w-25 border border-2 border-primary">
+          <div class="d-flex justify-content-evenly">
+            <img class="w-25 mt-3 me-3 mb-4" src="images/gallery2-1-360x260.png" alt="">
+            <div>
+              <p class="fw-bold hovgray">Four ways to cheer and plan your self up on Blue</p>
+              <p class="text-secondary fontsi"><i class="fa-regular fa-calendar-days"></i>  December 19, 2018</p>
+            </div>
+          </div>
+          <hr>
+          <div class="d-flex justify-content-evenly">
+            <img class="w-25 mt-3 me-3 mb-4" src="images/bg3.jpg" alt="">
+            <div>
+              <p class="fw-bold hovgray">Four ways to cheer and plan your self up on Blue</p>
+              <p class="text-secondary fontsi"><i class="fa-regular fa-calendar-days"></i>  December 19, 2018</p>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 text-left">
+        <div>
+          <h3>Populer</h3>
+          <hr class="w-25 border border-2 border-primary">
+          <button type="button" class="btn btn-light rounded-5 mb-2">Accountancy</button>
+          <button type="button" class="btn btn-light rounded-5 mb-2">Affiliate</button>
+          <button type="button" class="btn btn-light rounded-5 mb-2">Branding</button>
+          <button type="button" class="btn btn-light rounded-5 mb-2">Construction</button>
+          <button type="button" class="btn btn-light rounded-5 mb-2">design</button>
+          <button type="button" class="btn btn-light rounded-5 mb-2">Drupal</button>
+          <button type="button" class="btn btn-light rounded-5 mb-2">Education</button>
+          <button type="button" class="btn btn-light rounded-5 mb-2">Graphics</button>
+          <button type="button" class="btn btn-light rounded-5 mb-2">Joomla</button>
+          <button type="button" class="btn btn-light rounded-5 mb-2">Marketing</button>
+          <button type="button" class="btn btn-light rounded-5 mb-2">Money</button>
+          <button type="button" class="btn btn-light rounded-5 mb-2">Tally</button>
+          <button type="button" class="btn btn-light rounded-5 mb-2">Transform</button>
+          <button type="button" class="btn btn-light rounded-5 mb-2">website</button>
+          <button type="button" class="btn btn-light rounded-5 mb-2">wordpress</button>
+        </div>
+      </div>
+    </div>
+    <div class="row shadow-gr text-primary text-center py-3 mx-auto "><p>© 2019 Developed By DTM Theme</p></div>
+  </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script src="Js/script.js"></script>
+
+
+</script>
   </body>
 </html>

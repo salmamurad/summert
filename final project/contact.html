@@ -5,6 +5,9 @@
     <title>Contact Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Css/costyle.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
@@ -125,14 +128,243 @@
 </nav>
 <section class="bg-coimage">
   <div class="overlay height-600">
-    <div class="container h-100">
-      <p class="display-3 text-center h-75 text-white fw-bold paddcen">Contact</p>
+    <div class="container-fluid h-100 px-0">
+      <p class="display-3 text-center h-80 text-white fw-bold paddcen">Contact</p>
+    
+      <p class="text-white fs-4 pt-4 w-100 h-20 bg-black bg-opacity-50 text-center">Home > <span class="text-secondary fs-4">Contact</span></p>
+      </div>
+  </div>
+</section>
+<section class="bg-white">
+  <div class="container my-5">
+    <div class="row pt-5">
+    <div class="col-12">
+    <div class="row mx-auto text-center d-flex justify-content-center mb-3">
+      <div class="col-2 hrr text-center">
+        <hr class="short border border-2 border-primary ms-auto">
+        <hr class="tall border border-2 border-primary">
+      </div>
+      <div class="col-4">
+       <h1>Our Pricing</h1>
+      </div>
+      <div class="col-2 hrl">
+        <hr class="short border border-2 border-primary">
+        <hr class="tall border border-2 border-primary">
+      </div>
     </div>
-    <div class="bg-black text-center py-3 bg">
-      <p class="text-white fs-4">Home > <span class="text-secondary">Contact</span></p>
+  </div>
+  </div>
+  <div class="row py-3 text-center">
+    <div class="col-sm-12 col-md-4">
+      <div>
+        <i class="fa-solid fa-location-dot text-primary fs-1 mb-3"></i>
+        <h4>Address</h4>
+        <p class="text-secondary">267-A , Street Name Park Sera Avenue , New York, NY 90210</p>
+      </div>
+    </div>
+     <div class="col-sm-12 col-md-4">
+      <div>
+        <i class="fa-solid fa-phone-volume text-primary fs-1 mb-3"></i>
+        <h4>Call Us</h4>
+        <p class="text-secondary">Phone 1 : (+098) 7654 3210</p>
+      </div>
+    </div>
+     <div class="col-sm-12 col-md-4">
+      <div>
+        <i class="fa-regular fa-envelope text-primary fs-1 mb-3"></i>
+        <h4>Email</h4>
+        <p class="text-secondary">support@company.com</p>
+      </div>
     </div>
   </div>
 </section>
+<section class="bg-white">
+  <div class="container">
+     <div class="row py-5">
+    <div class="col-12">
+    <div class="row mx-auto text-center d-flex justify-content-center mb-3">
+      <div class="col-2 hrr text-center">
+        <hr class="short border border-2 border-primary ms-auto">
+        <hr class="tall border border-2 border-primary">
+      </div>
+      <div class="col-4">
+       <h1>Get In Touch</h1>
+      </div>
+      <div class="col-2 hrl">
+        <hr class="short border border-2 border-primary">
+        <hr class="tall border border-2 border-primary">
+      </div>
+    </div>
+  </div>
+  </div>
+  
+<form class="row my-4 gy-3" id="myForm" autocomplete="off">
+         <div class="col-12 col-md-4 position-relative">
+          <i class="fa-solid fa-user position-absolute left-0 botom fs-5"></i>
+           <input type="text" placeholder="  Name" class="form-control border-0 border-bottom border-black rounded-0 bhov" name="" id="userName">
+            <p class="mb-0 text-danger"></p>
+         </div>
+          <div class="col-12 col-md-4 position-relative">
+            <i class="fa-solid fa-envelope position-absolute left-0 botom fs-5"></i>
+                <input type="email" placeholder="  Email" class="form-control border-0 border-bottom border-black rounded-0 bhov" name="" id="userEmail">
+                <p class="mb-0 text-danger"></p>
+            </div>
+            <div class="col-12 col-md-4 position-relative">
+            <i class="fa-solid fa-pencil position-absolute left-0 botom fs-6"></i>
+           <input type="text" placeholder="Subject" class="form-control border-0 border-bottom border-black rounded-0 bhov" name="" id="Subject">
+            <p class="mb-0 text-danger"></p>
+         </div>
+         <div class="col-12 position-relative p-3 mt-5 ">
+          <i class="fa-solid fa-pencil position-absolute left-0 txt fs-6"></i>
+                <textarea placeholder="Your Massege" class="form-control border-0 border-bottom border-black rounded-0 bhov" name="" id="textArea"></textarea>
+            </div>
+         <div class="col-12">
+                <button class="btn btn-primary" id="forbtn">Submit</button>
+            </div>
+
+</form>
+  </div>
+</section>
+<section class="bg-primary">
+  <div class="container">
+    <div class="banner">
+  <i class="fa-solid fa-phone background-icon"></i>
+  <div class="d-flex justify-content-between">
+  <h4 class="w-50">If You Like This Grate Work ?? For You Site...</h4>
+  <button type="button" class="btn btn-light text-primary border-0 rounded-5 btn-filter bluew">Purchase Now</button>
+  </div>
+  </div>
+  </div>
+</section>
+<footer class="bg-black">
+  <div class="container">
+    <div class="row text-white py-5 mb-5">
+      <div class="col-sm-12 col-md-6 col-lg-4 text-left">
+        <div>
+          <h3>Contact Info</h3>
+          <hr class="w-25 border border-2 border-primary">
+          <p><i class="fa-solid fa-location-dot"></i>  123 Street Market, Life Plaza, New York<br><br>
+          <i class="fa-solid fa-phone"></i>  987654321<br><br>
+        <i class="fa-regular fa-envelope"></i>  team@gmail.com</p>
+        </div>
+      </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 text-left">
+        <div>
+          <h3>Posts</h3>
+          <hr class="w-25 border border-2 border-primary">
+          <div class="d-flex justify-content-evenly">
+            <img class="w-25 mt-3 me-3 mb-4" src="images/gallery2-1-360x260.png" alt="">
+            <div>
+              <p class="fw-bold hovgray">Four ways to cheer and plan your self up on Blue</p>
+              <p class="text-secondary fontsi"><i class="fa-regular fa-calendar-days"></i>  December 19, 2018</p>
+            </div>
+          </div>
+          <hr>
+          <div class="d-flex justify-content-evenly">
+            <img class="w-25 mt-3 me-3 mb-4" src="images/bg3.jpg" alt="">
+            <div>
+              <p class="fw-bold hovgray">Four ways to cheer and plan your self up on Blue</p>
+              <p class="text-secondary fontsi"><i class="fa-regular fa-calendar-days"></i>  December 19, 2018</p>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 text-left">
+        <div>
+          <h3>Populer</h3>
+          <hr class="w-25 border border-2 border-primary">
+          <button type="button" class="btn btn-light rounded-5 mb-2">Accountancy</button>
+          <button type="button" class="btn btn-light rounded-5 mb-2">Affiliate</button>
+          <button type="button" class="btn btn-light rounded-5 mb-2">Branding</button>
+          <button type="button" class="btn btn-light rounded-5 mb-2">Construction</button>
+          <button type="button" class="btn btn-light rounded-5 mb-2">design</button>
+          <button type="button" class="btn btn-light rounded-5 mb-2">Drupal</button>
+          <button type="button" class="btn btn-light rounded-5 mb-2">Education</button>
+          <button type="button" class="btn btn-light rounded-5 mb-2">Graphics</button>
+          <button type="button" class="btn btn-light rounded-5 mb-2">Joomla</button>
+          <button type="button" class="btn btn-light rounded-5 mb-2">Marketing</button>
+          <button type="button" class="btn btn-light rounded-5 mb-2">Money</button>
+          <button type="button" class="btn btn-light rounded-5 mb-2">Tally</button>
+          <button type="button" class="btn btn-light rounded-5 mb-2">Transform</button>
+          <button type="button" class="btn btn-light rounded-5 mb-2">website</button>
+          <button type="button" class="btn btn-light rounded-5 mb-2">wordpress</button>
+        </div>
+      </div>
+    </div>
+    <div class="row shadow-gr text-primary text-center py-3 mx-auto "><p>© 2019 Developed By DTM Theme</p></div>
+  </div>
+</footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+     
+<script>
+  let myForm = document.getElementById('myForm')
+
+let handleError = (element, msg = "") => {
+    element.nextElementSibling.innerText = msg
+}
+
+let nameValidation = (element) => {
+    let inputValue = element.value.trim()
+    if (inputValue.length < 3) handleError(element, "enter at least 3 character")
+    else handleError(element)
+
+}
+let emailValidation = (element) => {
+    let regExp = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+    console.log(regExp.test(element.value));
+        (!regExp.test(element.value)) ?
+        handleError(element, "please enter a valid email")
+        : handleError(element)
+}
+let subValidation = (element) => {
+    let inputValue = element.value.trim()
+    if (inputValue.length < 5) handleError(element, "enter at least 5 character")
+    else handleError(element)
+
+}
+myForm.addEventListener('input', function (e) {
+
+    if (e.target.id == "userName") {
+        nameValidation(e.target)
+    }
+    else if (e.target.id == 'userEmail') {
+        emailValidation(e.target)
+    }
+    else if (e.target.id == 'Subject') {
+        subValidation(e.target)
+    }
+})
+let nameValidations = (element) => {
+    let inputValue = element.value.trim()
+    if (inputValue.length ==  0) handleError(element, "this field is required")
+    else handleError(element)
+
+}
+let emailValidations = (element) => {
+    let regExp = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+    console.log(regExp.test(element.value));
+        (!regExp.test(element.value)) ?
+        handleError(element, "this field is required")
+        : handleError(element)
+}
+let subValidations = (element) => {
+    let inputValue = element.value.trim()
+    if (inputValue.length  == 0) handleError(element, "this feild is required")
+    else handleError(element)
+
+}
+myForm.addEventListener('submit', function(e){
+  e.preventDefault();
+
+  let userName = document.getElementById("userName");
+  let userEmail = document.getElementById("userEmail");
+  let subject = document.getElementById("Subject");
+
+  nameValidations(userName);
+  emailValidations(userEmail);
+  subValidations(subject);
+});
+
+</script>
   </body>
 </html>

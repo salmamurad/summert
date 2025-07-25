@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-size: medium;
 }
 .nav-item:hover .nav-link{
     color: rgb(92, 92, 211);
@@ -9,7 +12,7 @@
 .dropdown-menu{
     display: block;
     visibility: hidden;
-    transition: 0.7s !important;
+    transition: 0.3s !important;
 }
 .nav-item:hover .dropdown-menu{
     visibility: visible;
@@ -29,14 +32,102 @@
     height: 500px;
 }
 .overlay{
-    background-color: rgba(0, 0, 0, 0.575);
+    background-color: rgba(0, 0, 0, 0.795);
     background-size: cover;
     background-repeat: no-repeat;
 }
 .paddcen{
-    padding-top: 20%;
+    padding-top: 15%;
 }
 .bg{
     background-color: black !important;
     opacity: 0.4 !important;
+}
+.h-80{
+    height: 80%;
+}
+.h-20{
+    height: 20%;
+}
+.short{
+    width: 50%;
+}
+.tall{
+    width: 100%;
+}
+.form-i{
+  margin-right: 6px;
+  color: #010202; 
+  top: 50%;
+}
+.text-i{
+    top: 22%;
+}
+::placeholder{
+    margin-right: 20% !important;
+}
+.banner {
+  position: relative;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  overflow: hidden;
+}
+
+.background-icon {
+  position: absolute;
+  font-size: 120px; 
+  color: rgba(255, 255, 255, 0.1);
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  pointer-events: none; 
+}
+.hovgray:hover{
+    color: rgba(211, 211, 211, 0.384);
+}
+.shadow-gr{
+    box-shadow: 5px 0 6px 2px rgba(211, 211, 211, 0.137) !important;
+}
+.btn-filter{
+    position: relative !important;
+    padding-left: 20px !important;
+    width: 13rem !important;
+    height: 4.2rem !important;
+    transition: 0.4s !important;
+    overflow: hidden !important;
+}
+.btn-filter:hover{
+    padding-left: 0px !important;
+    padding-right: 20px !important;
+    color: white !important;
+}
+.bluew:hover{
+    background: rgb(22, 80, 128) !important;
+    color: white !important;
+    border: none !important;
+}
+.btn-filter::after{
+    content: "";
+    position: absolute !important;
+    top:0%;
+    left: 30%;
+    width: 80px !important;
+    height: 100% !important;
+    background: #ffffff40;
+    transform: translateX(-10rem) skewX(30deg);
+    transition: 0.7s ease-in-out;
+    z-index: 1;
+}
+.btn-filter:hover::after{
+   transform: translateX(10rem) skewX(30deg);  
+}
+.botom{
+    top: 15% !important;
+}
+.txt{
+    top: 25%;
+}
+.bhov:hover{
+    border-bottom: 2px rgb(91, 130, 214) solid !important;
 }

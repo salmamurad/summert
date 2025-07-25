@@ -2,6 +2,15 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-size: medium;
+}
+
+.arrowpos{
+    top:85% !important;
+    right:3% !important;
+    z-index: 0;
 }
 .nav-item:hover .nav-link{
     color: rgb(92, 92, 211);
@@ -9,11 +18,14 @@
 .dropdown-menu{
     display: block;
     visibility: hidden;
-    transition: 0.7s !important;
+    transition: 0.3s !important;
+    z-index: 100;
+    
 }
 .nav-item:hover .dropdown-menu{
     visibility: visible;
     transform: translateX(20px) !important;
+   
 }
 .dropdown-item{
     color: black;
@@ -51,6 +63,40 @@
     }
     
 }
+.btn-filter{
+    position: relative !important;
+    padding-left: 20px !important;
+    width: 13rem !important;
+    height: 4.2rem !important;
+    transition: 0.4s !important;
+    overflow: hidden !important;
+}
+.btn-filter:hover{
+    padding-left: 0px !important;
+    padding-right: 20px !important;
+    color: white !important;
+}
+.bluew:hover{
+    background: rgb(22, 80, 128) !important;
+    color: white !important;
+    border: none !important;
+}
+.btn-filter::after{
+    content: "";
+    position: absolute !important;
+    top:0%;
+    left: 30%;
+    width: 80px !important;
+    height: 100% !important;
+    background: #ffffff40;
+    transform: translateX(-10rem) skewX(30deg);
+    transition: 0.7s ease-in-out;
+    z-index: 1;
+}
+.btn-filter:hover::after{
+   transform: translateX(10rem) skewX(30deg);  
+}
+
 .short{
     width: 50%;
 }
@@ -188,4 +234,98 @@
 }
 .des{
     width: 20% !important;
+}
+.fontsi{
+    font-size: smaller !important;
+}
+.photo{
+        overflow: hidden;
+    display: block;
+}
+
+.cardd img{
+    transition: 1s;
+    
+}
+.cardd:hover img{
+    transform: scaleX(1.2) rotate(1deg);
+}
+.cardd:hover .bluehov{
+    background-color: rgb(72, 72, 231) !important;
+}
+.ichover:hover{
+    color: rgba(168, 168, 212, 0.685);
+}
+.hovtblue:hover{
+    color: rgba(17, 26, 148, 0.733) !important;
+}
+.hoviblue:hover{
+    color: rgba(17, 26, 148, 0.733) !important;
+}
+.hrtr{
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.hrhov:hover .hrtr{
+    width: 100% !important;
+}
+.trans{
+    transition: 0.4s ease-in-out;
+}
+.ahov:hover .trans{
+    transform: translateX(5px);
+}
+.banner {
+  position: relative;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  overflow: hidden;
+}
+
+.background-icon {
+  position: absolute;
+  font-size: 120px; 
+  color: rgba(255, 255, 255, 0.1);
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  pointer-events: none; 
+}
+.hovgray:hover{
+    color: rgba(211, 211, 211, 0.384);
+}
+.shadow-gr{
+    box-shadow: 5px 0 6px 2px rgba(211, 211, 211, 0.137) !important;
+}
+.owl-nav{
+    padding-top: 5%;
+        text-align: center;
+}
+.owl-prev ,.owl-next{
+    border: 2px rgb(28, 82, 197)  solid !important;
+    border-radius: 25% !important;
+    width: 50px  !important;
+    background-color: rgb(28, 82, 197) !important;
+    margin-right: 10px;
+}
+.owl-prev:hover{
+    border-color: black !important;
+    background-color:  black !important;
+}
+.owl-next:hover{
+    border-color: black !important;
+    background-color: black !important;
+}
+.center-ul{
+    text-align: center !important;
+    margin-left: 40% !important;
+    margin-right: auto !important;
+}
+.center-ul .fr{
+    color: white !important;
+}
+.center-ul .se{
+    color: rgb(12, 101, 237) !important;
+    border: 1px rgb(12, 101, 237) solid !important;
 }
